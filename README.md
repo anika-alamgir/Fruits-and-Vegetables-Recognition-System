@@ -1,9 +1,8 @@
-# Fruits-and-Vegetables-Recognition-System
-**Overview**
+Overview
 
 The Fruits and Vegetables Recognition System is a deep learning-based image classification project designed to automatically identify various fruits and vegetables from digital images. The project utilizes a Convolutional Neural Network (CNN) built with TensorFlow and Keras, demonstrating the practical application of deep learning in computer vision for agricultural and retail contexts.
 
-**Objectives**
+Objectives
 
 To design and train a convolutional neural network capable of classifying multiple categories of fruits and vegetables.
 
@@ -11,7 +10,7 @@ To evaluate the model’s performance using appropriate metrics and validate its
 
 To provide a scalable framework for real-world applications such as automated food sorting, smart retail systems, and agricultural monitoring.
 
-**Methodology**
+Methodology
 Dataset Preparation
 
 A custom dataset was organized into training, validation, and test subsets.
@@ -44,7 +43,7 @@ Regularization: Batch Normalization and Dropout
 
 The model was trained for multiple epochs until performance convergence was achieved on validation data.
 
-**Evaluation**
+Evaluation
 Metric	Accuracy
 Training Accuracy	0.8501
 Validation Accuracy	0.8632
@@ -52,8 +51,8 @@ Test Accuracy	0.8579
 
 The results indicate that the model achieved strong and consistent performance across all datasets, demonstrating balanced generalization and minimal overfitting.
 
-**Tools and Libraries
-**
+Tools and Libraries
+
 Python
 
 TensorFlow / Keras
@@ -64,8 +63,8 @@ Matplotlib
 
 Google Colab
 
-**Results and Discussion
-**
+Results and Discussion
+
 The developed CNN model successfully classifies fruit and vegetable images with high accuracy and robust generalization. The use of regularization techniques and normalization contributed significantly to stable learning.
 Further work could involve:
 
